@@ -1,63 +1,78 @@
 /* https://www.w3schools.com/howto/howto_css_two_columns.asp */
 /* https://developer.mozilla.org/es/docs/Web/CSS/box-sizing */
 /* Así definimos el comportamiento de caja para todos los elementos */
-* {
+* body{
     box-sizing: border-box;
+    background-image: url(Calderon\ fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  
+
+h1 {
+  font-family: sans-serif;
+  font-size: 50px;
+  color: rgb(207, 18, 18);
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+h2 {
+  background-color: rgb(255, 251, 0);
+  color: #000000;
+  opacity: 60%;
+  border: solid;
+  border-color: #000000;
+  border-radius: 5px;
+}
+
+h3{
+  background-color: rgb(24, 153, 204);
+  color: #000000;
+  opacity: 60%;
+  border: solid;
+  border-color: #000000;
+  border-radius: 5px;
+  }
+
+ul {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  opacity: 60%;
+  border: solid;
+  border-color: #000000;
+  border-radius: 5px;
+}
+
+p {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  opacity: 60%;
+  border: solid;
+  border-color: #000000;
+  border-radius: 5px;
+}
+
 /* Crear columnas de ancho diferente que se colocan una a continuación de la otra */
 .columna {
 float: left;
-padding: 10px;
-min-height: 500px;
+padding: 25px;
 }
 
-.margenizquierda {
-  width: 5%;
-  }
-
 .izquierda {
-width: 35%;
+width: 30%;
+border:solid;
+border-color: rgb(226, 35, 35);
+border-radius: 5px;
 }
 
 .derecha {
 width: 60%;
-}
-
-.wrapper {
-  display: grid;
-  width: fit-content;
-  background-color: #0d4185;
-}
-
-/* Clear floats despues de las columnas para eliminar la superposición */
-.filla:after {
-content: "";
-display: table;
-clear: both;
-}
-
-#c0 {
-  background-color:#ffffff;
-}
-
-#c1 {
-    background-color:#4b7dbe;
-}
-
-#c2 {
-    background-color:#ffffff;
+border:solid;
+border-color: rgb(226, 35, 35);
+border-radius: 5px;
 }
 
 /* estilos para imágenes https://www.w3schools.com/css/css3_images.asp */
 /* posicionamiento de imágenes https://www.w3schools.com/css/css_positioning.asp */
-
-img {
-    width: 100%;
-    height: auto;
-    border-radius: 60px;
-    float: none;
-}
 
 .iresponsive {
     padding: 0 6px;
