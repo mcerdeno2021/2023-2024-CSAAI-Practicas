@@ -42,6 +42,15 @@ ul {
   border-radius: 5px;
 }
 
+table {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  opacity: 60%;
+  border: solid;
+  border-color: #000000;
+  border-radius: 5px;
+}
+
 p {
   background-color: rgb(255, 255, 255);
   color: #000000;
