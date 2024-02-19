@@ -63,14 +63,14 @@ padding: 25px;
 }
 
 .izquierda {
-width: 300;
+width: 20%;
 border:solid;
 border-color: rgb(226, 35, 35);
 border-radius: 5px;
 }
 
 .derecha {
-width: 60%;
+width: 70%;
 border:solid;
 border-color: rgb(226, 35, 35);
 border-radius: 5px;
