@@ -9,6 +9,14 @@
     font-family: 'Times New Roman', Times, serif;
   }
 
+.body2 {
+  box-sizing: border-box;
+  background-image: url(Torres-españa.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 h1 {
   text-align: center;
   font-family: sans-serif;
@@ -92,8 +100,8 @@ border-radius: 5px;
 min-height: 500px;
 }
 
-.a {
-object-fit: contain;
+#imghtml {
+width: 150;
 }
 
 /* estilos para imágenes https://www.w3schools.com/css/css3_images.asp */
@@ -102,7 +110,8 @@ object-fit: contain;
 .iresponsive {
     padding: 0 6px;
     float: left;
-    width: 50%;
+    width: auto;
+    text-align: center
   }
 
 /* Responsive layout - cuando el ancho de pantalla es menor a 600px, muestra las columnas apiladas. */
