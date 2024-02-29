@@ -101,6 +101,33 @@ border-radius: 5px;
 min-height: 500px;
 }
 
+.izquierda2 {
+  width: 25%;
+  padding: 10px;
+  border:solid;
+  border-color: rgb(226, 35, 35);
+  border-radius: 5px;
+  min-height: 500px;
+  }
+  
+.centro2 {
+    width: 37%;
+    padding: 10px;
+    border:solid;
+    border-color: rgb(226, 35, 35);
+    border-radius: 5px;
+    min-height: 500px;
+  }
+  
+.derecha2 {
+  width: 15%;
+  padding: 10px;
+  border:solid;
+  border-color: rgb(226, 35, 35);
+  border-radius: 5px;
+  min-height: 500px;
+  }
+
 #imghtml {
   width: 100%;
 }
@@ -109,12 +136,31 @@ min-height: 500px;
   width: 100%;
 }
 
+#imghtml3 {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+#imghtml4 {
+  width: 130%;
+  display: block;
+  margin: auto;
+}
+
 .centrado {
   margin: auto;
+  display: block;
+  width: fit-content;
 }
 
 .left {
   text-align: left;
+}
+
+.padding {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .align {
@@ -130,6 +176,15 @@ min-height: 500px;
 .ancho {
   margin: auto;
   width: 70%;
+  margin-bottom: revert;
+  margin-top: revert;
+}
+
+button {
+  display: block;
+  margin: auto;
+  background-color: rgb(233, 36, 2);
+  color: white;
 }
 
 /* estilos para imágenes https://www.w3schools.com/css/css3_images.asp */
