@@ -26,6 +26,7 @@ h1 {
 }
 
 h2 {
+  text-align: center;
   clear: both;
   background-color: rgb(255, 251, 0);
   color: #000000;
@@ -61,11 +62,6 @@ table {
   border-radius: 5px;
 }
 
-.filla:after {
-  content: "";
-  display: table;
-  clear: both;
-  }
 
 /* Crear columnas de ancho diferente que se colocan una a continuación de la otra */
 .columna {
@@ -101,7 +97,11 @@ min-height: 500px;
 }
 
 #imghtml {
-width: 150;
+  width: 100%;
+}
+
+.centrado {
+  margin: auto;
 }
 
 /* estilos para imágenes https://www.w3schools.com/css/css3_images.asp */
