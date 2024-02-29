@@ -118,7 +118,13 @@ min-height: 500px;
 }
 
 .align {
-text-align: center;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  border: solid;
+  border-color: #000000;
+  border-radius: 5px;
+  padding-left: 0;
 }
 
 .ancho {
