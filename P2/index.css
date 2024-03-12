@@ -1,0 +1,55 @@
+body{
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.digito {
+    color: black;
+    background-color: white;
+    outline-offset: -20px;
+    border-radius: 30px;
+    font-size: 30px;
+    padding: 60px;;
+}
+
+.tiempo {
+    color: black;
+    background-color: white;
+    outline-offset: -20px;
+    border-radius: 30px;
+    font-size: 10px;
+    padding: 60px;;
+}
+
+#combinacion {
+    color: red;
+    background-color: black;
+    text-align: center;
+}
+
+#tiempo {
+    text-align: center;
+    background-color: black;
+    color: orange;
+}
+
+#bordetop {
+    border: solid;
+    border-color: brown;
+    width: fit-content;
+    margin: auto;
+    background-color: white;
+}
+
+#bordebottom {
+    border: solid;
+    border-color: brown;
+    width: fit-content;
+    margin: auto;
+    background-color: white;
+}
+
+#cero {
+    display: block;
+    margin: auto;
+}
