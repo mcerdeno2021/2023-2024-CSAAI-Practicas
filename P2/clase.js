@@ -63,10 +63,13 @@ class Crono {
     }
 }
 
-class numeros {
-    constructor (boton,display,clave1,clave2,clave3,clave4){
+class display {
+    constructor (boton,display1,display2,display3,display4,clave1,clave2,clave3,clave4){
         this.boton = boton
-        this.display = display
+        this.display1 = display1
+        this.display2 = display2
+        this.display3 = display3
+        this.display4 = display4
         this.clave1 = clave1
         this.clave2 = clave2
         this.clave3 = clave3
@@ -75,20 +78,16 @@ class numeros {
 
     comprobar() {
         if (this.boton == this.clave1) {
-            this.clave1 = "completado";
-            this.display.innerHTML = this.clave1+"***";
+            this.display1.innerHTML = this.clave1;
         }
         else if (this.boton == this.clave2) {
-            this.clave2 = "completado";
-            this.display.innerHTML = "*"+this.clave2+"**";
+            this.display2.innerHTML = this.clave2;
         }
         else if (this.boton == this.clave3) {
-            this.clave3 = "completado";
-            this.display.innerHTML = "**"+this.clave3+"*";
+            this.display3.innerHTML = this.clave3;
         }
         else if (this.boton == this.clave4) {
-            this.clave4 = "completado";
-            this.display.innerHTML = "***"+this.clave4;
+            this.display4.innerHTML = this.clave4;
         }
 
     }
