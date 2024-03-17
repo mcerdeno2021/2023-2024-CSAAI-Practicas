@@ -10,6 +10,7 @@ const Estado = {
   init1 : 0, //tiempo en 0:0:0
   init2 : 1, //tiempo empezado
   op1 : 2,
+  fin : 3,
 }
 
 let estado = Estado.init1;
@@ -68,7 +69,21 @@ function digito(value) {
 function show(value) {
   const mostrar = new display(value,numeros.display1,numeros.display2,numeros.display3,numeros.display4,numeros.clave1,numeros.clave2,numeros.clave3,numeros.clave4);
     mostrar.comprobar();
-    estado = Estado.init2;
+    if (numeros.display1.innerHTML== numeros.clave1 && numeros.display2.innerHTML==numeros.clave2 && numeros.display3.innerHTML==numeros.clave3 && numeros.display4.innerHTML==numeros.clave4) {
+      estado = Estado.fin;
+      fin();
+    }
+    else {
+      estado = Estado.init2;
+    }  
+}
+
+function fin() {
+  crono.stop();
+  numeros.display1.style.color="green";
+  numeros.display2.style.color="green";
+  numeros.display3.style.color="green";
+  numeros.display4.style.color="green";
 }
 
 for (let boton of numeros.botones) {

@@ -21,10 +21,30 @@ body{
     padding: 60px;;
 }
 
-#combinacion {
+#combinacion1 {
+    width: 108.22px;
+}
+
+#combinacion2 {
+    width: 108.22px;
+}
+
+#combinacion3 {
+    width: 108.22px;
+}
+
+#combinacion4 {
+    width: 108.22px;
+}
+
+#display {
     color: red;
     background-color: black;
     text-align: center;
+    display: block;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #tiempo {
