@@ -1,6 +1,9 @@
 body{
     box-sizing: border-box;
     background-color: black;
+    background-image: url(bomba.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .digito {
@@ -17,8 +20,8 @@ body{
     background-color: white;
     outline-offset: -20px;
     border-radius: 30px;
-    font-size: 10px;
-    padding: 60px;;
+    font-size: 15px;
+    padding: 50px;;
 }
 
 #combinacion1 {
@@ -51,12 +54,14 @@ body{
     text-align: center;
     background-color: black;
     color: orange;
+    width: 432.91px;
+    font-size: 30px;
 }
 
 #bordetop {
     border: solid;
     border-color: brown;
-    width: fit-content;
+    width: 432.91px;
     margin: auto;
     background-color: white;
 }

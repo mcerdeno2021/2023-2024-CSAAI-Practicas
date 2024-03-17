@@ -77,20 +77,36 @@ class display {
     }
 
     comprobar() {
+        if (this.display1.innerHTML == this.clave1) {
+            this.clave1 = "correcta"
+        }
+        if (this.display2.innerHTML == this.clave2) {
+            this.clave2 = "correcta"
+        }
+        if (this.display3.innerHTML == this.clave3) {
+            this.clave3 = "correcta"
+        }
+        if (this.display4.innerHTML == this.clave4) {
+            this.clave4 = "correcta"
+        }
         this.claves = [this.clave1,this.clave2,this.clave3,this.clave4];
         for (let i=0; i<= this.claves.length-1; i++) {
             if (this.boton == this.claves[i]) {
                 if (i == 0) {
                     this.display1.innerHTML = this.clave1;
+                    break
                 }
                 else if (i == 1) {
                     this.display2.innerHTML = this.clave2;
+                    break
                 }
                 else if (i == 2) {
                     this.display3.innerHTML = this.clave3;
+                    break
                 }
                 else if (i == 3) {
                     this.display4.innerHTML = this.clave4;
+                    break
                 }
             }
         }
