@@ -66,47 +66,51 @@ class Crono {
 class display {
     constructor (boton,display1,display2,display3,display4,clave1,clave2,clave3,clave4){
         this.boton = boton
-        this.display1 = display1
-        this.display2 = display2
-        this.display3 = display3
-        this.display4 = display4
-        this.clave1 = clave1
-        this.clave2 = clave2
-        this.clave3 = clave3
+        this.display1 = display1,
+        this.display2 = display2,
+        this.display3 = display3,
+        this.display4 = display4,
+        this.clave1 = clave1,
+        this.clave2 = clave2,
+        this.clave3 = clave3,
         this.clave4 = clave4
     }
 
     comprobar() {
         if (this.display1.innerHTML == this.clave1) {
-            this.clave1 = "correcta"
+            this.clave1 = "correcta";
         }
         if (this.display2.innerHTML == this.clave2) {
-            this.clave2 = "correcta"
+            this.clave2 = "correcta";
         }
         if (this.display3.innerHTML == this.clave3) {
-            this.clave3 = "correcta"
+            this.clave3 = "correcta";
         }
         if (this.display4.innerHTML == this.clave4) {
-            this.clave4 = "correcta"
+            this.clave4 = "correcta";
         }
         this.claves = [this.clave1,this.clave2,this.clave3,this.clave4];
         for (let i=0; i<= this.claves.length-1; i++) {
             if (this.boton == this.claves[i]) {
                 if (i == 0) {
                     this.display1.innerHTML = this.clave1;
-                    break
+                    this.display1.style.color="green";
+                    break;
                 }
                 else if (i == 1) {
                     this.display2.innerHTML = this.clave2;
-                    break
+                    numeros.display2.style.color="green";
+                    break;
                 }
                 else if (i == 2) {
                     this.display3.innerHTML = this.clave3;
-                    break
+                    numeros.display3.style.color="green";
+                    break;
                 }
                 else if (i == 3) {
                     this.display4.innerHTML = this.clave4;
-                    break
+                    numeros.display4.style.color="green";
+                    break;
                 }
             }
         }

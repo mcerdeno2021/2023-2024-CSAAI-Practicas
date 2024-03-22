@@ -3,7 +3,7 @@ const clock = {
   tiempo : document.getElementById("tiempo"),
   start : document.getElementById("start"),
   stop : document.getElementById("stop"),
-  reset : document.getElementById("reset")
+  reset : document.getElementById("reset"),
 }
 
 const Estado = {
@@ -80,15 +80,11 @@ function show(value) {
 
 function fin() {
   crono.stop();
-  numeros.display1.style.color="green";
-  numeros.display2.style.color="green";
-  numeros.display3.style.color="green";
-  numeros.display4.style.color="green";
 }
 
 for (let boton of numeros.botones) {
   boton.onclick = (ev) => {
     console.log("Valor: " + boton.innerHTML);
-    digito(ev.target.value)
+    digito(ev.target.value);
   }
 }
